@@ -37,6 +37,10 @@ background-attachment: fixed;
 #greenBgc{
     background-color: rgba(25,255,36, 0.6);
 }
+/* ändrar bagrkunden till row med rödfärg*/
+#redBgc{
+    background-color: rgba(255, 25, 25, 0.6);
+}
 /* ändrade länkarna till röda istället*/
 a{
     color: red;
@@ -63,7 +67,10 @@ a{
     text-align: center;
     background-color:rgba(211, 12, 12, 0.918)
 }
-
+/*ändrar bredden på cards*/
+#cardwidth{
+    width: 18rem;
+}
 
 /*ändrar färg*/
 footer{
