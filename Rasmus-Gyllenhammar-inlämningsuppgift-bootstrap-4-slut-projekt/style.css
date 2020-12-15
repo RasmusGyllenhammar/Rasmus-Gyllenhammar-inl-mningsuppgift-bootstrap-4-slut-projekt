@@ -1,78 +1,89 @@
-
 /*centerar*/
-.carousel-item active, carousel-item{
+.carousel-item active,
+carousel-item {
     margin-right: auto;
     margin-left: auto;
 }
+
 /*Ökade avstånden mellan footern och jumbotron   */
-.jumbotron{
+.jumbotron {
     margin-bottom: 5rem;
 }
 
 /*ändrade bakgrunden på service hemsidan och att den är fixed på sammma punkt och täcker hela sidan centralt  */
-.serviceBody{
+.serviceBody {
     background-image: url(tree.jpg);
-  height: 100%;
+    height: 100%;
 
-background-position: center;
-background-size: cover;
-background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
 /* ändrar alla knappar till svart färg*/
-.btn{
+.btn {
     color: black;
 }
 
 /*Ändrar färg, bakgrundfärg och cemterar alla rubriker på service sidan  */
-#serviceHeaders{
+#serviceHeaders {
     color: white;
-    background-color: rgba(26, 25, 23, 0.616); 
+    background-color: rgba(26, 25, 23, 0.616);
     text-align: center;
 }
+
 /*bytte färg till vit på underrubrikerna*/
-#hColor{
+#hColor {
     color: white;
 }
+
 /* ändrar bakgrunen till  både cards och row*/
-#greenBgc{
-    background-color: rgba(25,255,36, 0.6);
+#greenBgc {
+    background-color: rgba(25, 255, 36, 0.6);
 }
+
 /* ändrar bagrkunden till row med rödfärg*/
-#redBgc{
+#redBgc {
     background-color: rgba(255, 25, 25, 0.6);
 }
+
 /* ändrade länkarna till röda istället*/
-a{
+a {
     color: red;
 }
+
 /* ändrar min border färg på rutan som kommer upp och ger en gul bakgrund när rutan är framme o*/
-#myModal{
-    
-    background-color:yellow; 
-    border:red;
+#myModal {
+
+    background-color: yellow;
+    border: red;
 }
+
 /*stylade om knappen och gav lite luftrum */
-#modalColor{
+#modalColor {
     background-color: red;
     border: yellow;
     border-style: dotted;
     margin-bottom: 1rem;
 }
+
 /*blev röd färg*/
-.list-group{
+.list-group {
     color: red;
 }
+
 /*centrerade texten på kontakt listan och ändrade bakgrunden*/
-.iroh{
+.iroh {
     text-align: center;
-    background-color:rgba(211, 12, 12, 0.918)
+    background-color: rgba(211, 12, 12, 0.918)
 }
+
 /*ändrar bredden på cards*/
-#cardwidth{
+#cardwidth {
     width: 18rem;
 }
 
 /*ändrar färg*/
-footer{
+footer {
     background-color: #f8f9fa;
 }
