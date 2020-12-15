@@ -10,7 +10,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
     <title>Document</title>
-
+  <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 </head>
@@ -18,7 +18,7 @@
   <nav class="navbar navbar-expand-sm bg-light">
     <h1>WISDOM</h1>
     <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="index.html">Index</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
       
       
@@ -48,13 +48,41 @@
     <div class="container-fluid">
         <h2>Order your WISDOM WIZARD HERE</h2>
         <p>These are the best supply when it comes to wisdom</p>   
-        <span class="badge badge-pill badge-danger">Danger</span>  
-        <span class="badge badge-pill badge-light">Safe</span>
-        <span class="badge badge-pill badge-dark">SKY</span>
-        <span class="badge badge-pill badge-danger">FIRE</span>
-        <span class="badge badge-pill badge-light">WATER</span>
-        <span class="badge badge-pill badge-dark">EARTH</span>
-        <span class="badge badge-pill badge-danger">LIGHTNING</span>       
+       <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="myModal">
+  MODAL HERE BRO, CLICK ME IF U DARE HAHAHA
+</button>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">U want a wizard? ok but first u need to answer this question</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        U ACCCEPT COOKIES?????
+        YES OR NO
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">YES I LOVE COOKIES</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">NEVER</button>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+       
+           
         <table class="table table-striped">
           <thead>
             <tr>
@@ -66,25 +94,25 @@
           </thead>
           <tbody>
             <tr>
-              <td>Harry </td>
+              <td>Harry  <span class="badge badge-pill badge-danger">Danger</span>  </td>
               <td>Potter</td>
               <td>Harry.Potter@Hogwarts.com</td>
               <td>2500 rupees</td>
             </tr>
             <tr>
-              <td>Gandalf</td>
+              <td>Gandalf <span class="badge badge-pill badge-danger">FIRE</span></td>
               <td>Olórin</td>
               <td>Gandalf@Olórin.THelordFromTHeRings</td>
               <td>50230 rupees</td>
             </tr>
             <tr>
-              <td>Bilbo</td>
+              <td>Bilbo   <span class="badge badge-pill badge-dark">WATER</span></td>
               <td>Baggins</td>
               <td>Bilbo.RINGLOVER@BAGGINS.com</td>
               <td>free, trash wizard of wisdom</td>
             </tr>
             <tr>
-                <td>Johndyr</td>
+                <td>Johndyr  <span class="badge badge-pill badge-light">razor</span></td>
                 <td>Classic</td>
                 <td>JohnDyr.KAKA@Flames.BURN</td>
                 <td>Open up d gateZ</td>
@@ -93,38 +121,6 @@
         </table>
       </div>
 
-<!-- Button to Open the Modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-    Open modal
-  </button>
-  
-  <!-- The Modal -->
-  <div class="modal" id="myModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-  
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="modal-title">U want a wizard? ok but first u need to answer this question</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-  
-        <!-- Modal body -->
-        <div class="modal-body">
-          U ACCCEPT COOKIES?????
-          YES OR NO
-        </div>
-  
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">YES I LOVE COOKIES</button>
-          <button type="button" class="btn btn-danger" data-dismiss="modal">NEVER</button>
-
-        </div>
-  
-      </div>
-    </div>
-  </div>
 
  
 
@@ -144,7 +140,7 @@
               <!-- Content -->
               <h5 class="text-uppercase font-weight-bold">WIsDOM SINCE 1845</h5>
               <p>It all started bACK IN THE 18th century when witches were alive and ran riot around the world. But 
-                  with all the wisdom they had, it come with a big responsbility which was too heavy for withces so human take
+                with all the wisdom they had, it came with a big responsbility which was too heavy for the withces in the end, so humans took it
               </p>
       
             </div>
