@@ -29,6 +29,10 @@ background-attachment: fixed;
     background-color: rgba(26, 25, 23, 0.616); 
     text-align: center;
 }
+/*bytte färg till vit på underrubrikerna*/
+#hColor{
+    color: white;
+}
 /* ändrar bakgrunen till  både cards och row*/
 #greenBgc{
     background-color: rgba(25,255,36, 0.6);
@@ -50,7 +54,18 @@ a{
     border-style: dotted;
     margin-bottom: 1rem;
 }
+/*blev röd färg*/
+.list-group{
+    color: red;
+}
+/*centrerade texten på kontakt listan och ändrade bakgrunden*/
+.iroh{
+    text-align: center;
+    background-color:rgba(211, 12, 12, 0.918)
+}
 
+
+/*ändrar färg*/
 footer{
     background-color: #f8f9fa;
 }
