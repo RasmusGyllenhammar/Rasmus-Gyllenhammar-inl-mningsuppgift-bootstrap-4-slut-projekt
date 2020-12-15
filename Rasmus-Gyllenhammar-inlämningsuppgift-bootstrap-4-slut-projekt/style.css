@@ -37,9 +37,20 @@ background-attachment: fixed;
 a{
     color: red;
 }
-/* ändrar min modal till röd färg och skapar lite lufturm emellan klasserna*/
+/* ändrar min border färg på rutan som kommer upp och ger en gul bakgrund när rutan är framme o*/
 #myModal{
+    
+    background-color:yellow; 
+    border:red;
+}
+/*stylade om knappen och gav lite luftrum */
+#modalColor{
+    background-color: red;
+    border: yellow;
+    border-style: dotted;
     margin-bottom: 1rem;
-    background-color: red; 
-    border:rgba(243, 143, 13, 0.6);
+}
+
+footer{
+    background-color: #f8f9fa;
 }
