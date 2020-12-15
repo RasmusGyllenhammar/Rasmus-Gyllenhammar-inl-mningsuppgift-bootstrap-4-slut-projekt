@@ -1,170 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/bootstrap.css">
-    <title>Document</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!--DESSA SCRIPTS FUNKAR FÖR BOOTSRAP-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--DESSA SCRIPTS FUNKAR FÖR BOOTSRAP-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+    integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <nav class="navbar navbar-expand-sm bg-light">
     <h1>WISDOM</h1>
     <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-      
-      
-        
-        <div class="dropdown show">
-          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Products
-          </a>
-        
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item" href="wizards.html">productswizard</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+
+      <div class="dropdown show">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Products
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="wizards.html">productswizard</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
         </div>
-      
-        <li class="nav-item"><a class="nav-link" href="services.html">services</a></li>
-       
+      </div>
+
+      <li class="nav-item"><a class="nav-link" href="services.html">services</a></li>
+
 
     </ul>
-</nav>
+  </nav>
 
-<div id="accordion">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          NUMBERS
-        </button>
-      </h5>
-    </div>
-
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-      <div class="card-body">
-      <h3>This is our numbers to get in contact with us.
-        <p>µ</p></h3> 
-        <p>031-21 88 00 (to America)</p>
-        <p>031-26 51 09 (to Africa)</p>
-        <p>0303-24 04 20 (to Asia)</p>
-        <p>031-15 41 54 (to Europe(no working))</p>
-      <p></p>
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+            aria-controls="collapseOne">
+            NUMBERS
+          </button>
+        </h5>
       </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          EMAIL
-        </button>
-      </h5>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-      <div class="card-body">
-      <h3>This is our emails to get in contact with us.</h3>
-      <p>First email: WizardHQ.Get.POST@Wisdom.worldwide</p>
-      <p>Second email: HEADQuarters.wakanda.HOME@justInEurope</p>
-      <p>Third email: WisdomQuarters.HQ@AMerica.us</p>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingThree">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          ADRESS - TO MEET US IN PERSON
-        </button>
-      </h5>
-    </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-      <div class="card-body">
-       <h3>Our adress</h3>
-      <p>Friggagatan 14D, 411 01 America</p>
-      <p>Älvebacken 21, 442 48 Europe</p>
-      <p>Österlyckan 1, 415 07 Asisa</p>
-      <p> KYRKTORGET 19, 433 33 Africa</p>
 
-      </div>
-    </div>
-  </div>
-</div>
-<ul class="list-group">
-  <li class="list-group-item"><h1>AlARM OPTIONS BELOW</h1></li>
-  <li class="list-group-item"><h3>SOS ALARM ADRESS</h3><p>Baggeliden 32, 433 62 Worldwide</p></li>
-  <li class="list-group-item"><h3>SOS ALARM EMAIL</h3> <p>SOS.Alarm@WisdomHQ.worldwide</p></li>
-  <li class="list-group-item"><h3>SOS ALARM NUMBER</h3> <p>034-243443434</p></li>
-</ul>
-
-<div class="iroh">
-  <h1 >Watch Uncle Iroh, founder of Wisdom, and his best tips! </h1>
-<p >Watch this while you're waiting!</p>
-</div>
-
-<div class="embed-responsive embed-responsive-4by3">
-  
-  <iframe class="embed-responsive-item" width="560px" height="315" src="https://www.youtube.com/embed/VZ2ue2zA2ck" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- 
-</div>
-
-
-
-
-
-
-    <footer class="page-footer font-small teal pt-4" >
-
-        <!-- Footer Text -->
-        <div class="container-fluid text-center text-md-left">
-      
-          <!-- Grid row -->
-          <div class="row">
-      
-            <!-- Grid column -->
-            <div class="col-md-6 mt-md-0 mt-3">
-      
-              <!-- Content -->
-              <h5 class="text-uppercase font-weight-bold">WIsDOM SINCE 1845</h5>
-              <p>It all started bACK IN THE 18th century when witches were alive and ran riot around the world. But 
-                  with all the wisdom they had, it came with a big responsbility which was too heavy for the withces in the end, so humans took it
-              </p>
-      
-            </div>
-            <!-- Grid column -->
-      
-            <hr class="clearfix w-100 d-md-none pb-3">
-      
-            <!-- Grid column -->
-            <div class="col-md-6 mb-md-0 mb-3">
-      
-              <!-- Content -->
-              <h5 class="text-uppercase font-weight-bold">Follow us on instagram</h5>
-             <a href="youtube.com"><p>INSTAGRAM .</p></a
-            </div>
-            <!-- Grid column -->
-      
-          </div>
-          <!-- Grid row -->
-      
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body">
+          <h3>This is our numbers to get in contact with us.
+            <p>µ</p>
+          </h3>
+          <p>031-21 88 00 (to America)</p>
+          <p>031-26 51 09 (to Africa)</p>
+          <p>0303-24 04 20 (to Asia)</p>
+          <p>031-15 41 54 (to Europe(no working))</p>
+          <p></p>
         </div>
-        <!-- Footer Text -->
-      
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-          <a href="https://youtube.com/"> WISDOM.com</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+            aria-controls="collapseTwo">
+            EMAIL
+          </button>
+        </h5>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+        <div class="card-body">
+          <h3>This is our emails to get in contact with us.</h3>
+          <p>First email: WizardHQ.Get.POST@Wisdom.worldwide</p>
+          <p>Second email: HEADQuarters.wakanda.HOME@justInEurope</p>
+          <p>Third email: WisdomQuarters.HQ@AMerica.us</p>
         </div>
-        <!-- Copyright -->
-      
-      </footer>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+            aria-expanded="false" aria-controls="collapseThree">
+            ADRESS - TO MEET US IN PERSON
+          </button>
+        </h5>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+        <div class="card-body">
+          <h3>Our adress</h3>
+          <p>Friggagatan 14D, 411 01 America</p>
+          <p>Älvebacken 21, 442 48 Europe</p>
+          <p>Österlyckan 1, 415 07 Asisa</p>
+          <p> KYRKTORGET 19, 433 33 Africa</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <ul class="list-group">
+    <li class="list-group-item">
+      <h1>AlARM OPTIONS BELOW</h1>
+    </li>
+    <li class="list-group-item">
+      <h3>SOS ALARM ADRESS</h3>
+      <p>Baggeliden 32, 433 62 Worldwide</p>
+    </li>
+    <li class="list-group-item">
+      <h3>SOS ALARM EMAIL</h3>
+      <p>SOS.Alarm@WisdomHQ.worldwide</p>
+    </li>
+    <li class="list-group-item">
+      <h3>SOS ALARM NUMBER</h3>
+      <p>034-243443434</p>
+    </li>
+  </ul>
+
+  <div class="iroh">
+    <h1>Watch Uncle Iroh, founder of Wisdom, and his best tips! </h1>
+    <p>Watch this while you're waiting!!</p>
+  </div>
+
+  <div class="embed-responsive embed-responsive-4by3">
+
+    <iframe class="embed-responsive-item" width="560px" height="315" src="https://www.youtube.com/embed/VZ2ue2zA2ck"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+
+  </div>
+
+
+
+
+
+
+  <footer class="page-footer font-small teal pt-4">
+
+    <!-- Footer Text -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase font-weight-bold">WIsDOM SINCE 1845</h5>
+          <p>It all started bACK IN THE 18th century when witches were alive and ran riot around the world. But
+            with all the wisdom they had, it came with a big responsbility which was too heavy for the withces in the
+            end, so humans took it
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mb-md-0 mb-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase font-weight-bold">Follow us on instagram </h5>
+          <a href="youtube.com">
+            <p>INSTAGRAM .</p>
+          </a </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+      <!-- Footer Text -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="https://youtube.com/"> WISDOM.com</a>
+      </div>
+      <!-- Copyright -->
+
+  </footer>
 </body>
+
 </html>
