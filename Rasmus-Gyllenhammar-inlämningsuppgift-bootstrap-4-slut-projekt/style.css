@@ -11,7 +11,7 @@ carousel-item {
 }
 
 /*ändrade bakgrunden på service hemsidan och att den är fixed på sammma punkt och täcker hela sidan centralt  */
-.serviceBody {
+.servicebody {
     background-image: url(tree.jpg);
     height: 100%;
 
@@ -26,24 +26,24 @@ carousel-item {
 }
 
 /*Ändrar färg, bakgrundfärg och cemterar alla rubriker på service sidan  */
-#serviceHeaders {
+#serviceheaders {
     color: white;
     background-color: rgba(26, 25, 23, 0.616);
     text-align: center;
 }
 
 /*bytte färg till vit på underrubrikerna*/
-#hColor {
+#hcolor {
     color: white;
 }
 
 /* ändrar bakgrunen till  både cards och row*/
-#greenBgc {
+#greenbgc {
     background-color: rgba(25, 255, 36, 0.6);
 }
 
 /* ändrar bagrkunden till row med rödfärg*/
-#redBgc {
+#redbgc {
     background-color: rgba(255, 25, 25, 0.6);
 }
 
@@ -60,7 +60,7 @@ a {
 }
 
 /*stylade om knappen och gav lite luftrum */
-#modalColor {
+#modalcolor {
     background-color: red;
     border: yellow;
     border-style: dotted;
